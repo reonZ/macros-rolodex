@@ -27,5 +27,6 @@ Hooks.once('libWrapper.Ready', () => {
 })
 
 Hooks.once('ready', () => {
+    if (!game.user.isGM) return
     socketOn(setMacroFolder)
 })
