@@ -1,0 +1,7 @@
+<section class="sidebar-tab sidebar-popout macros-sidebar directory flexcol">
+    <ol class="directory-list">
+        {{~#each folders}}
+        {{> (lookup @root "folderPartial") node=this folder=this.folder}}
+        {{/each}}
+    </ol>
+</section>

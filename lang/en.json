@@ -1,0 +1,14 @@
+{
+    "macros-rolodex": {
+        "settings": {
+            "gamemaster": {
+                "name": "Gamemaster Folder",
+                "hint": "If not empty, the macros created by the Gamemasters will be placed in that folder automatically instead of the root. Macros that are manually created inside a folder will not be moved at all by the module."
+            },
+            "players": {
+                "name": "Players Folder",
+                "hint": "If not empty, the players folders will be created inside this folder instead of the root."
+            }
+        }
+    }
+}

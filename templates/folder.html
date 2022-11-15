@@ -1,0 +1,10 @@
+<li class="directory-item folder flexcol" data-folder-id="{{folder.id}}" data-folder-depth="{{node.depth}}">
+    <header class="folder-header flexrow">
+        <h3 class="noborder"><i class="fas fa-folder-open fa-fw"></i>{{folder.name}}</h3>
+    </header>
+    <ol class="subdirectory">
+        {{~#each node.children}}
+        {{> (lookup @root "folderPartial") node=this folder=this.folder}}
+        {{/each}}
+    </ol>
+</li>
