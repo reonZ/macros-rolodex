@@ -30,7 +30,7 @@
     "version": "1.0.0",
     "compatibility": {
         "minimum": "10.288",
-        "verified": "10"
+        "verified": "11"
     },
     "manifestPlusVersion": "1.2.0",
     "url": "https://github.com/reonZ/macros-rolodex",
